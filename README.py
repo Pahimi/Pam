@@ -18,8 +18,8 @@ for j in range(len(data_test)):
     printf("OK")
   else:
     printf("Échoué")
+    
 #Factorial
-
 def factorial_function(n):
     if n < 0:
         return None
@@ -29,7 +29,7 @@ def factorial_function(n):
     for i in range(2, n+1):
         prod *= i
     return prod
-
+#test factorial_function
 for n in range(1, 6):
     print(n,'! = ', factorial_function(n))
 
